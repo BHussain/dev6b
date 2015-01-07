@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.002" errors="0" skipped="0" tests="1" name="com.mycompany.app.AppTest">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Release"/>
+    <property name="PWD" value="/var/lib/jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"/>
+    <property name="HUDSON_SERVER_COOKIE" value="b481606f9cf6c9ac"/>
+    <property name="POM_ARTIFACTID" value="my-app"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="my-app"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/117"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.7.0_65-b32"/>
+    <property name="XDG_SEAT" value="seat0"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="20d0ba3ba75b97a2a2d8e58505045c9adf69c849"/>
+    <property name="java.version" value="1.7.0_65"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="linux"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2015-01-07_10-22-25"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-i386/jre"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="3.13.0-32-generic"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="20d0ba3ba75b97a2a2d8e58505045c9adf69c849"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/daemon"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="com.mycompany.app"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-Release-14"/>
+    <property name="JENKINS_SERVER_COOKIE" value="b481606f9cf6c9ac"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="XDG_SESSION_ID" value="c1"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/usr/java/packages/lib/i386:/usr/lib/i386-linux-gnu/jni:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-agent-1.6.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/boot/plexus-classworlds-2.5.1.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /var/cache/jenkins/war/WEB-INF/lib/remoting-2.48.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-interceptor-1.6.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.6.jar 57682"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="MAIL" value="/var/mail/jenkins"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Release/14/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/var/lib/jenkins/jobs/Release/workspace"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Release/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="BUILD_NUMBER" value="14"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="GIT_COMMIT" value="4ffc4a47971883d98dfc28a9b19a6690cc1c6bbd"/>
+    <property name="QT_QPA_PLATFORMTHEME" value="appmenu-qt5"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-interceptor-1.6.jar"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/jobs/Release/workspace"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.6.jar"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="USER" value="jenkins"/>
+    <property name="GIT_URL" value="git@github.com:dionn23/dev6b.git"/>
+  </properties>
+  <testcase time="0.002" classname="com.mycompany.app.AppTest" name="testApp"/>
+</testsuite>
